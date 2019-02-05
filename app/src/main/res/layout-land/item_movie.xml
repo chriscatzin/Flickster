@@ -18,10 +18,8 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="134dp"
-        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/ivPoster"
         android:textSize="24sp"
         tools:text="Glass" />
 
@@ -29,9 +27,7 @@
         android:id="@+id/tvOverview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="125dp"
-        android:layout_marginTop="53dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_toEndOf="@+id/ivPoster"
         tools:text="In a series of escalating encounters, security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men." />
 </RelativeLayout>
