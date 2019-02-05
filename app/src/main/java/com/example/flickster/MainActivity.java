@@ -47,7 +47,7 @@
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 try {
-                    JSONArray movieJsonArray = response.getJSONArray(" results");
+                    JSONArray movieJsonArray = response.getJSONArray("results");
                     movies.addAll(Movie.fromJsonArray(movieJsonArray));
                     adapter.notifyDataSetChanged();
                     Log.e("smile", movies.toString ());
