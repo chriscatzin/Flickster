@@ -18,14 +18,23 @@
 - [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
 
 ### App Walkthough GIF
+https://github.com/chriscatzin/Flickster/blob/ff9e2b607e5637b88bb4507a5bf3a4a62d8b3019/Flickster-Part%20Two.gif
 
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/chriscatzin/Flickster/blob/ff9e2b607e5637b88bb4507a5bf3a4a62d8b3019/Flickster-Part%20Two.gif" width=250><br>
 
 ### Notes
 
 Describe any challenges encountered while building the app.
+
+Some challenges I encountered while working on the second part of this app was importing the YouTube
+Android Player into Android Studio. I was getting errors when I was declaring YouTubePlayerView youTubePlayerView.
+For some reason Android Studio did not want to import the library, but turns out I was importing the entire file
+instead of the .jar file within that file after extracting the zip file. Another problem I ran into was improving
+view lookups using @BindView instead of findViewById for Activity View Lookups. I was getting errors, but I forgot to 
+add the dependencies to the app/build.gradle. The Last challenge that I had was Improving Listener Attachments, and 
+Improving Resource Lookups. I did not finish, but I hope to go back and finish the rest of the bonus section sometime 
+this week. Overall, this was a really fun project, and I learned so much material.
+
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
